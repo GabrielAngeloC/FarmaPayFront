@@ -1,8 +1,8 @@
-export type OrderStatus = 'PENDING' | 'PAID' | 'CANCELLED';
+export type OrderStatus = 'APROVED' | 'PENDING' | 'CANCELED';
 
 export interface OrderRequest {
     customerId: number;
-    amount: number;
+    total: number;
 }
 
 export interface OrderResponse {

@@ -13,7 +13,7 @@ export interface PaymentResponse {
   customerId: number;
   customerName: string;
   orderAmount: number;
-  amountPaid: number;
+  totalPaid: number;
   method: PaymentMethod;
   status: PaymentStatus;
   paidAt: string;
